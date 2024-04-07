@@ -77,31 +77,8 @@ head{
       text-align: left;
         text-decoration: none;
     }
-/* Grid CSS */
- 
-#heroGrid {
-  margin: 0px 5%;
-  display: grid;
-  min-height: 600px;
-  height: auto;
-  grid-template-rows: 50% 50%;
-  grid-template-areas:
-  "aboutMe headShot";
-}
- 
-#headShot {
-  grid-area: headShot;
-  background-image: url("/Images/Nini\ headshot.png");
-}
- 
-.heroGridArea {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  align-items: center;
-  display: flex;
-  position: relative;
-}
+
+
  
     /* Flex Item */
 .flex_item {
@@ -230,4 +207,7 @@ head{
       background-color: #333;
     }
    
+  @media screen and (max-width:600px){
+    //css rules0
+  }
   
