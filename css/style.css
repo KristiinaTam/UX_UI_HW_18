@@ -1,9 +1,12 @@
 
 head{
-    flex-direction: column;
+      direction: flex;
   }
     body {
         font-family: "Roboto", sans-serif;
+    }
+    .resume {
+      text-align: left;
     }
     nav {
       height: 50px;
@@ -51,6 +54,7 @@ head{
       font-size: 30px;
       margin: 0px 0px;
       color: #000000;
+      font-weight: 300; /* Light */
     }
     
     h3 {
@@ -73,6 +77,52 @@ head{
       text-align: left;
         text-decoration: none;
     }
+/* Grid CSS */
+ 
+#heroGrid {
+  margin: 0px 5%;
+  display: grid;
+  min-height: 600px;
+  height: auto;
+  grid-template-rows: 50% 50%;
+  grid-template-areas:
+  "aboutMe headShot";
+}
+ 
+#headShot {
+  grid-area: headShot;
+  background-image: url("/Images/Nini\ headshot.png");
+}
+ 
+.heroGridArea {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+ 
+    /* Flex Item */
+.flex_item {
+  padding:10px;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  color: white;
+}
+.flex {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+}
+#column {
+  background-color: #ffffff;
+  flex-direction: column;
+}
+#row {
+  background-color: #ffffff;
+  flex-direction: row;
+}
     
   
     .GiftJoy
@@ -111,8 +161,8 @@ head{
   }
   
   .UMOCA
-  
-  
+
+
     button {
       padding: 2px 6px;
       background-color: gray;
@@ -129,8 +179,7 @@ head{
   .left2
   {
     float: left;
-      margin: 20
-        px;
+      margin: 20px;
       background-color: rgb(255, 255, 255);
       height: 600px;
       width: 40%;
@@ -149,11 +198,9 @@ head{
     .container {
       width: 50%;
       margin: 0 auto;
+      margin-top: 20px;
     }
     
-    h2 {
-      font-weight: 300; /* Light */
-    }
     
     label {
       display: block;
@@ -182,3 +229,5 @@ head{
     button:hover {
       background-color: #333;
     }
+   
+  
