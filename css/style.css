@@ -1,0 +1,184 @@
+
+head{
+    flex-direction: column;
+  }
+    body {
+        font-family: "Roboto", sans-serif;
+    }
+    nav {
+      height: 50px;
+      float: right;
+      color: #000000;
+    }
+    .inline-block {
+      padding: 15px;
+      display: inline-block;
+    }
+  
+    .inline-block2 {
+      align-self: auto;
+      padding: 15px;
+      display: inline-block;
+    }
+    .left {
+      float: left;
+      height: 600px;
+      background-color: rgb(255, 255, 255);
+      width: 60%;
+      text-align: center;
+    }
+    .right {
+      float: left;
+      background-color: rgb(255, 255, 255);
+      height: 600px;
+      width: 40%;
+      text-align: center;
+    }
+    
+    
+    /* Typography CSS */
+    
+    h1 {
+      font-family: "Roboto", sans-serif;
+      font-size: 80px;
+      margin: 0px 0px 0px 40px;
+      color: #000000;
+      text-align: left;
+      text-decoration: none;
+    }
+    
+    h2 {
+      font-size: 30px;
+      margin: 0px 0px;
+      color: #000000;
+    }
+    
+    h3 {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0px 0px;
+    }
+    
+    h4 {
+      color: white;
+      font-weight: 400;
+      font-size: 22px;
+    }
+    
+    p {
+      font-family: "roboto", sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      color: #000000;
+      text-align: left;
+        text-decoration: none;
+    }
+    
+  
+    .GiftJoy
+  
+    button {
+      padding: 2px 6px;
+      background-color: gray;
+      color: white;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #333;
+     
+    }
+  .left2
+  {
+    float: left;
+      margin: 20
+        px;
+      background-color: rgb(255, 255, 255);
+      height: 600px;
+      width: 40%;
+      text-align: center;
+  }
+  .right2
+  {
+      margin: 20px;
+      float: right;
+      background-color: rgb(255, 255, 255);
+      height: 600px;
+      width: 40%;
+      text-align: center;
+  }
+  
+  .UMOCA
+  
+  
+    button {
+      padding: 2px 6px;
+      background-color: gray;
+      color: white;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #333;
+     
+    }
+  .left2
+  {
+    float: left;
+      margin: 20
+        px;
+      background-color: rgb(255, 255, 255);
+      height: 600px;
+      width: 40%;
+      text-align: center;
+  }
+  .right2
+  {
+      margin: 20px;
+      float: right;
+      background-color: rgb(255, 255, 255);
+      height: 600px;
+      width: 40%;
+      text-align: center;
+  }
+  
+    .container {
+      width: 50%;
+      margin: 0 auto;
+    }
+    
+    h2 {
+      font-weight: 300; /* Light */
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    button {
+      padding: 10px 20px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #333;
+    }
