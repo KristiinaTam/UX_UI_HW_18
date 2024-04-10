@@ -1,28 +1,48 @@
 
-head{
-      direction: flex;
-  }
-    body {
-        font-family: "Roboto", sans-serif;
-    }
-    .resume {
-      text-align: left;
-    }
-    nav {
-      height: 50px;
-      float: right;
-      color: #000000;
-    }
-    .inline-block {
-      padding: 15px;
-      display: inline-block;
-    }
-  
-    .inline-block2 {
-      align-self: auto;
-      padding: 15px;
-      display: inline-block;
-    }
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+        /* nav */
+
+nav {
+  height: 50px;
+  float: right;
+  color: #000000;
+  margin: 5px 0px;
+}
+.inline-block {
+  padding: 15px;
+  display: inline-block;
+}
+
+
+
+
+        /* hero */
+.flex_item {
+  padding:10px;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  color: white;
+}
+.flex {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  width:100%
+}
+
+/*#row {
+  /*background-color: #ffffff;
+  flex-direction: row;
+}*/
+
+      /* hero link */
+.resume {
+  text-align: left;
+}
+
     .left {
       float: left;
       height: 600px;
@@ -40,8 +60,14 @@ head{
     
     
     /* Typography CSS */
+
+    /*.inline-block2 {
+      align-self: auto;
+      padding: 15px;
+      display: inline-block;
+    }*/
     
-    h1 {
+h1 {
       font-family: "Roboto", sans-serif;
       font-size: 80px;
       margin: 0px 0px 0px 40px;
@@ -50,24 +76,24 @@ head{
       text-decoration: none;
     }
     
-    h2 {
+ h2 {
       font-size: 30px;
       margin: 0px 0px;
       color: #000000;
-      font-weight: 300; /* Light */
+      font-weight: 300; 
     }
     
-    h3 {
+ h3 {
       font-size: 18px;
       font-weight: bold;
       margin: 0px 0px;
     }
     
-    h4 {
+       /*h4 {
       color: white;
       font-weight: 400;
       font-size: 22px;
-    }
+    }*/
     
     p {
       font-family: "roboto", sans-serif;
@@ -77,67 +103,151 @@ head{
       text-align: left;
         text-decoration: none;
     }
+    
+ /* Gift Joy Case study */
+  
+  .GiftJoy-background-image {
+      margin-top:80px;
+      background-image: url(/Images/confetti\ pic.jpg);
+      opacity: 75%;
+      height: 600px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+      
+    }
 
+
+    table{
+
+      padding: 5px 10px;
+      position: relative;
+      bottom: 8px;
+      right: 16px;
+    }
+
+  
+    button {
+      padding: 2px 6px;
+      background-color: gray;
+      color: white;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+    
+  button:hover {
+      background-color: #333;
+     
+    }
+  .left2
+  {
+    padding-left: 100px;
+    padding-top: 450px;
+    position: relative;
+    float: left;
+
+  }
+  .right2
+  {
+    padding-right: 50px;
+    padding-top: 450px;
+    margin: 20px;
+    float: right;
+   
+  
+   
+  }
+  h3-3 {
+    font-size: 25px;
+    margin: 0px 0px;
+    color: #fdfdfd;
+    font-weight: 300;
+    background-color: #333;
+  }
+  
+  p2 {
+   /* font-family: "roboto", sans-serif;*/
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #333;
+      
+  }
+  /* UMOCA Case Study*/
+
+  .UMOCA-background-image {
+    margin-top:80px;
+    background-image: url(/Images/Animation\ \(1\).jpg);
+    opacity: 75%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+
+
+  }
+
+  table{
+
+    padding: 5px 10px;
+    position: relative;
+    bottom: 8px;
+    right: 16px;
+  }
+
+
+  button {
+    padding: 2px 6px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+   
+  }
+.left3
+{
+  padding-left: 100px;
+  padding-top: 450px;
+  position: relative;
+  float: left;
+
+}
+.right3
+{
+  padding-right: 50px;
+  padding-top: 450px;
+  margin: 20px;
+  float: right;
+ 
 
  
-    /* Flex Item */
-.flex_item {
-  padding:10px;
-  margin: 10px;
-  background-color: rgb(255, 255, 255);
-  color: white;
 }
-.flex {
-  display: flex;
-  padding: 10px;
-  margin: 10px;
+h3-3 {
+  font-size: 25px;
+  margin: 0px 0px;
+  color: #fdfdfd;
+  font-weight: 300;
+  background-color: #333;
+  font-style: bold;
 }
-#column {
-  background-color: #ffffff;
-  flex-direction: column;
-}
-#row {
-  background-color: #ffffff;
-  flex-direction: row;
-}
+
+p2 {
+ /* font-family: "roboto", sans-serif;*/
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #333;
     
-  
-    .GiftJoy
-  
-    button {
-      padding: 2px 6px;
-      background-color: gray;
-      color: white;
-      border: none;
-      border-radius: 2px;
-      cursor: pointer;
-    }
-    
-    button:hover {
-      background-color: #333;
-     
-    }
-  .left2
-  {
-    float: left;
-      margin: 20
-        px;
-      background-color: rgb(255, 255, 255);
-      height: 600px;
-      width: 40%;
-      text-align: center;
-  }
-  .right2
-  {
-      margin: 20px;
-      float: right;
-      background-color: rgb(255, 255, 255);
-      height: 600px;
-      width: 40%;
-      text-align: center;
-  }
-  
-  .UMOCA
+}
+
+  /*.UMOCA
 
 
     button {
@@ -170,9 +280,9 @@ head{
       height: 600px;
       width: 40%;
       text-align: center;
-  }
+  }*/
   
-    .container {
+  .container {
       width: 50%;
       margin: 0 auto;
       margin-top: 20px;
@@ -194,7 +304,7 @@ head{
       border-radius: 5px;
     }
     
-    button {
+    button2 {
       padding: 10px 20px;
       background-color: black;
       color: white;
@@ -203,11 +313,28 @@ head{
       cursor: pointer;
     }
     
-    button:hover {
+    button2:hover {
       background-color: #333;
     }
+
+    /* Footer*/
+
+    footer {
+      margin: auto;
+      padding-top: 20%;
+      padding-bottom: 5%;
+      float: none;
+      color: #000000;
+      text-align: center;
+      background-color:aliceblue;
+  
+    }
+    .inline-block2 {
+      padding:30px;
+      /*display: inline-flex;*/
+    }
    
-  @media screen and (max-width:600px){
-    //css rules0
-  }
+ /* @media screen and (max-width:600px){
+    
+  }*/
   
