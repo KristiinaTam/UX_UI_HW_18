@@ -2,6 +2,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  min-height: 100vh;
 }
         /* nav */
 
@@ -40,6 +41,7 @@ nav {
 
       /* hero link */
 .resume {
+  margin: 0;
   text-align: left;
 }
 
@@ -336,7 +338,19 @@ p2 {
     }
    
     @media only screen and (max-width: 600px) {
-      /* For mobile phones: */
-     
-        width: 100%;
+      /* Adjustments for smaller screens */
+      .flex {
+          flex-direction: column;
+      }
+  
+      .flex_item {
+          width: 100%;
+          margin: 10px;
+      }
+  
+      .left2, .right2, .left3, .right3 {
+          padding: 20px;
+          text-align: center;
+          float: none;
+          width: 100%;
       }
