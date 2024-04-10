@@ -315,13 +315,14 @@ p2 {
     
     button2:hover {
       background-color: #333;
+      margin-bottom: 20px;
     }
 
     /* Footer*/
 
     footer {
-      margin: auto;
-      padding-top: 20%;
+
+      padding-top: 10%;
       padding-bottom: 5%;
       float: none;
       color: #000000;
@@ -334,7 +335,8 @@ p2 {
       /*display: inline-flex;*/
     }
    
- /* @media screen and (max-width:600px){
-    
-  }*/
-  
+    @media only screen and (max-width: 600px) {
+      /* For mobile phones: */
+     {
+        width: 100%;
+      }
